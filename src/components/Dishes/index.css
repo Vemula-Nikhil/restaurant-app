@@ -1,0 +1,130 @@
+.dish-list {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.dish-content-container {
+  display: flex;
+  align-items: flex-start;
+  min-width: 50%;
+}
+
+.avalibility-icon {
+  border: 1px solid #00923f;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #00923f;
+}
+
+.dish-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.price {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #515151;
+  font-weight: 500;
+}
+
+.dish-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #b9b8b8;
+  font-weight: 400;
+}
+
+.addon {
+  height: 38px;
+  width: 120px;
+  border-radius: 30px;
+  border-width: 0px;
+  background-color: #338218;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+  color: #ffffff;
+}
+
+.count {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.customization {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #653ef3;
+  font-weight: 400;
+}
+
+.not-available {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #e04d4d;
+  font-weight: 400;
+}
+
+.calories-container {
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dish-calories {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffa500;
+  font-weight: 500;
+}
+
+.dish-image {
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+@media (min-width: 768px) {
+  .dish-content-container {
+    width: 60%;
+  }
+  .dish-image {
+    height: 120px;
+    width: 120px;
+  }
+}

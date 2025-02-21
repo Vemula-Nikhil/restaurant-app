@@ -1,0 +1,36 @@
+.menu-category {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.category {
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.active-category {
+  border-bottom: 2px solid #d65c5c;
+  padding-bottom: 15px;
+  color: #d65c5c;
+}
+
+@media (max-width: 767px) {
+  .menu-category {
+    width: 50%;
+  }
+  .active-category {
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-category {
+    min-width: 200px;
+  }
+}
