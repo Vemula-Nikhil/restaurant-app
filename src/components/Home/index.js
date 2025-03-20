@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import Loader from 'react-loader-spinner'
 
 import CategoryTab from '../CategoryTab'
 import Dishes from '../Dishes'
@@ -106,7 +107,9 @@ const Home = () => {
             ))}
           </ul>
         ) : (
-          <h1>kkkkk</h1>
+          <div className="products-loader-container">
+            <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
+          </div>
         )}
       </div>
     </>

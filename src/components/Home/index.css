@@ -28,3 +28,10 @@
   padding: 0px;
   margin: 0px;
 }
+
+.products-loader-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
